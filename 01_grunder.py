@@ -1,5 +1,5 @@
 
-### print (gör detta i övning 1)
+### print
 
 print("Hello world!")
 
@@ -12,7 +12,7 @@ print("Hello world!")
 print  ( "Hello world!"    )
 
 
-### Heltal (nu i editorn)
+### Heltal
 
 # Måste använda print för att se något
 47 + 55
@@ -94,6 +94,42 @@ print("Hej", namn, "!")
 diameter = input("Vad är cirkelns diameter")
 print("Omkretsen är", diameter * 3.14)
 
-diameter = int(input("Vad är cirkelns diameter"))
+svar = input("Vad är cirkelns diameter")
+diameter = int(svar)
+diameter = float(svar)
+
 diameter = float(input("Vad är cirkelns diameter"))
 
+
+### Förstagradsekvationer
+
+# 10x + 5 = 50
+# 10x = 50 - 5
+# 10x = 45
+# x = 45 / 10
+# x = 4.5
+
+# ax + b = c
+# ax = c - b
+# x = (c - b) / a
+
+a = 10
+b = 5
+c = 50
+x = (c - b) / a
+print("x = ", x)
+print("Kontroll:", a * x + b, "=", c)
+
+# Ändra till att läsa in a b och c
+
+svar = input("Vad är a?")
+a = float(svar)
+
+svar = input("Vad är b?")
+b = float(svar)
+
+svar = input("Vad är c?")
+c = float(svar)
+
+# Övning: skriv ett nytt program som frågar efter längden på två
+# kateter i en rätvinklig triangel och räknar ut hypotenusan
