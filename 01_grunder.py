@@ -11,6 +11,14 @@ print("Hello world!")
 # Blanktecken kan (oftast!) läggas in varsom
 print  ( "Hello world!"    )
 
+### Input
+
+namn = input("Vad heter du?")
+print("Hej", namn, "!")
+
+### Övning:
+# Lägg till fler frågor och utskrifter
+
 
 ### Heltal
 
@@ -43,6 +51,9 @@ print(1 - 0.7)
 print(3,14159)
 print(2 * 3,14159)
 
+# Upphöjt till
+print(2.5 ** 3)
+
 ### Mer komplicerade utskrifter
 
 print("Summan av", 47, "och", 55, "är", 47 + 55)
@@ -71,33 +82,31 @@ namn1 = "Ida"
 # 2namn = "Pelle"
 # namn 3 = "Maja"
 
-cirkelns_diameter = 5
-pi = 3.14
-cirkelns_omkrets = cirkelns_diameter * pi
-print(cirkelns_omkrets)
-
 a = 10
 A = 20
 print(a)
 print(A)
 
+# Beskrivande namn
 
-### Input
-
-namn = input()
-print(namn)
-
-namn = input("Hej, vad heter du?")
-print("Hej", namn, "!")
+cirkelns_diameter = 5
+pi = 3.14
+cirkelns_omkrets = cirkelns_diameter * pi
+print(cirkelns_omkrets)
 
 
+# Input av tal
+
+# input ger en sträng, så det här funkar inte
 diameter = input("Vad är cirkelns diameter")
 print("Omkretsen är", diameter * 3.14)
 
+# Måste konverteras till heltal eller flyttal
 svar = input("Vad är cirkelns diameter")
 diameter = int(svar)
 diameter = float(svar)
 
+# Kan göras i ett enda steg
 diameter = float(input("Vad är cirkelns diameter"))
 
 
@@ -113,14 +122,7 @@ diameter = float(input("Vad är cirkelns diameter"))
 # ax = c - b
 # x = (c - b) / a
 
-a = 10
-b = 5
-c = 50
-x = (c - b) / a
-print("x = ", x)
-print("Kontroll:", a * x + b, "=", c)
-
-# Ändra till att läsa in a b och c
+# Kod på repl:
 
 svar = input("Vad är a?")
 a = float(svar)
@@ -131,5 +133,12 @@ b = float(svar)
 svar = input("Vad är c?")
 c = float(svar)
 
-# Övning: skriv ett nytt program som frågar efter längden på två
+x = (c - b) / a
+
+print("x = ", x)
+print("Kontroll:", a * x + b, "=", c)
+
+
+### Övning:
+# Forka exemplet och ändra det till ett program som frågar efter längden på två
 # kateter i en rätvinklig triangel och räknar ut hypotenusan

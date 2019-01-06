@@ -1,8 +1,14 @@
 
-# Grundkommandon
-# Rita ett hus med spetsigt tak
-# Färger
-# Rita fritt!
+### Turtle
 
-# Använd loopar i ritandet
-# Fortsätt rita fritt
+# Forka repl-exempel på att rita hus
+# Fortsätt rita saker
+
+### Använd loopar i ritandet
+
+# Kvadrat
+# Hexagon
+# Oktagon
+# Cirkel
+
+### Loopar för att rita mönster

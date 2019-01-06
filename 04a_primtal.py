@@ -3,7 +3,10 @@
 
 tal = 9
 for i in range(2, tal):
-    if tal % i == 0:
+    kvot = tal // i
+    rest = tal - kvot * i
+
+    if rest == 0:
         print(tal, "är inte ett primtal")
 
 # Ändra tal till 15:
