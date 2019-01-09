@@ -1,3 +1,8 @@
+### Geometri och trigonometri med Turtlegrafik:
+###
+### - Rita bilder med turtle-grafik
+### - Enkla loopar för att rita liksidiga figurer och utforska vinkelsummor
+###- Enkla loopar för att rita stjärnmönster
 
 ### Turtle
 

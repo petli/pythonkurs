@@ -1,3 +1,11 @@
+### Grunderna i textprogrammering med Python:
+###
+### - Språkets struktur
+### - Inläsning och utmatning
+### - Matematiska uttryck
+### - Variabler
+### - Lösning av förstagradsekvationer med kod
+
 
 ### print
 

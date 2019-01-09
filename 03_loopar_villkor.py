@@ -1,3 +1,8 @@
+### Loopar och villkor:
+###
+### - Beräkna värdeförändringar och förräntningar med loopar
+### - Statistik
+### - Slumptal
 
 ### Förändringsvärden
 
